@@ -1,0 +1,15 @@
+C:\bootcamp\bootcamp.infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.csproj.AssemblyReference.cache
+C:\bootcamp\bootcamp.infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\bootcamp.infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.AssemblyInfoInputs.cache
+C:\bootcamp\bootcamp.infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.AssemblyInfo.cs
+C:\bootcamp\bootcamp.infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\bootcamp\bootcamp.Infrastructure\bin\Debug\net7.0\bootcamp.Infrastructure.deps.json
+C:\bootcamp\bootcamp.Infrastructure\bin\Debug\net7.0\bootcamp.Infrastructure.dll
+C:\bootcamp\bootcamp.Infrastructure\bin\Debug\net7.0\bootcamp.Infrastructure.pdb
+C:\bootcamp\bootcamp.Infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.dll
+C:\bootcamp\bootcamp.Infrastructure\obj\Debug\net7.0\refint\bootcamp.Infrastructure.dll
+C:\bootcamp\bootcamp.Infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.pdb
+C:\bootcamp\bootcamp.Infrastructure\obj\Debug\net7.0\ref\bootcamp.Infrastructure.dll
+C:\bootcamp\bootcamp.Infrastructure\bin\Debug\net7.0\bootcamp.Domain.dll
+C:\bootcamp\bootcamp.Infrastructure\bin\Debug\net7.0\bootcamp.Domain.pdb
+C:\bootcamp\bootcamp.Infrastructure\obj\Debug\net7.0\bootcamp.Infrastructure.csproj.CopyComplete

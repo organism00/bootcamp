@@ -1,0 +1,12 @@
+C:\bootcamp\bootcamp.Domain\bin\Debug\net7.0\bootcamp.Domain.deps.json
+C:\bootcamp\bootcamp.Domain\bin\Debug\net7.0\bootcamp.Domain.dll
+C:\bootcamp\bootcamp.Domain\bin\Debug\net7.0\bootcamp.Domain.pdb
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.csproj.AssemblyReference.cache
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.AssemblyInfoInputs.cache
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.AssemblyInfo.cs
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.csproj.CoreCompileInputs.cache
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.dll
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\refint\bootcamp.Domain.dll
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\bootcamp.Domain.pdb
+C:\bootcamp\bootcamp.Domain\obj\Debug\net7.0\ref\bootcamp.Domain.dll

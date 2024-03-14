@@ -1,0 +1,15 @@
+C:\bootcamp\bootcamp.Application\bin\Debug\net7.0\bootcamp.Application.deps.json
+C:\bootcamp\bootcamp.Application\bin\Debug\net7.0\bootcamp.Application.dll
+C:\bootcamp\bootcamp.Application\bin\Debug\net7.0\bootcamp.Application.pdb
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.csproj.AssemblyReference.cache
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.AssemblyInfoInputs.cache
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.AssemblyInfo.cs
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.csproj.CoreCompileInputs.cache
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.dll
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\refint\bootcamp.Application.dll
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.pdb
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\ref\bootcamp.Application.dll
+C:\bootcamp\bootcamp.Application\bin\Debug\net7.0\bootcamp.Domain.dll
+C:\bootcamp\bootcamp.Application\bin\Debug\net7.0\bootcamp.Domain.pdb
+C:\bootcamp\bootcamp.Application\obj\Debug\net7.0\bootcamp.Application.csproj.CopyComplete

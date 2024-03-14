@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\bootcamp.web.props" />
+</Project>
