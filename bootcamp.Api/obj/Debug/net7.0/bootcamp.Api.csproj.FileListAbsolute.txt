@@ -81,3 +81,7 @@ C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\bootcamp.Infrastructure.dll
 C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\bootcamp.Application.pdb
 C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\bootcamp.Infrastructure.pdb
 C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\bootcamp.Domain.pdb
+C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\Scrutor.dll
+C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\bootcamp\bootcamp.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

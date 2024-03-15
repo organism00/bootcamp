@@ -21,7 +21,7 @@ namespace bootcamp.Domain.Models
         public string? Username { get; set; }
         public string? PasswordHash { get; set; }
         public AccountStatus Status { get; set; } = AccountStatus.user;
-        public DateTime AccountCreatedAt { get; set; }
+        public DateTime AccountCreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime AccountUpdatedAt { get; set; }
     }
    

@@ -1,4 +1,5 @@
-﻿using bootcamp.Api.DTO.ApplicantDTO;
+﻿using bootcamp.Api.DTO;
+using bootcamp.Api.DTO.ApplicantDTO;
 using bootcamp.Api.Response;
 using bootcamp.Application.Interface;
 using bootcamp.Application.Services;
@@ -7,7 +8,11 @@ using bootcamp.Infrastructure.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace bootcamp.Api.Controllers
 {
@@ -81,7 +86,7 @@ namespace bootcamp.Api.Controllers
 
         [HttpGet]
         [Route("GetAllApplicant")]
-        [AllowAnonymous]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse<List<Applicants>>>> GetAllApplicant()
         {
 
@@ -110,6 +115,7 @@ namespace bootcamp.Api.Controllers
 
         [HttpGet]
         [Route("GetApplicantById/{Id}")]
+        [Authorize]
         public async Task<ActionResult<DefaultResponse<Applicants>>> GetApplicantById(Guid Id)
         {
             DefaultResponse<Applicants> response = new();
@@ -138,6 +144,63 @@ namespace bootcamp.Api.Controllers
             }
         }
 
+        [HttpPost]
+        [Route("Login")]
+        [AllowAnonymous]
+        public async Task<ActionResult<DefaultResponse<string>>> Login([FromBody] Login login)
+        {
+            DefaultResponse<string> response = new();
+            try
+            {
+                var kostoma = _context.Applicants.FirstOrDefault(x => x.Username == login.Username);
+                if (kostoma == null)
+                {
+                    response.Status = false;
+                    response.ResponseMessage = "no customer found";
+                    return StatusCode(404, response);
+                }
+                if (!BCrypt.Net.BCrypt.Verify(login.Password, kostoma.PasswordHash))
+                {
+                    response.Status = false;
+                    response.ResponseMessage = "Invalid Password";
+                    return BadRequest(response.ResponseMessage);
+                }
 
+                string token = CreateToken(kostoma);
+                response.Status = true;
+                response.ResponseCode = "00";
+                response.ResponseMessage = "Login successful, Welcome back";
+                //return Ok($"Welcome Back, {kostoma.Username}!:");
+                return Ok(token);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Customer Login failed", ex);
+                response.Status = false;
+                response.ResponseCode = "99";
+                response.ResponseMessage = "an error occured";
+                return StatusCode(500, response);
+            }
+        }
+
+        private string CreateToken(Applicants applicant)
+        {
+            List<Claim> claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, applicant.Username)
+
+            };
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value!));
+
+            var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+
+            var token = new JwtSecurityToken(
+                expires: DateTime.Now.AddMinutes(30),
+                signingCredentials: credentials,
+                claims: claims
+                );
+            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
+            return jwt;
+        }
     }
 }
