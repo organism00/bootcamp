@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitRepo\\bootcamp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E74A8686-A552-4579-B1C7-7A5BE9C15E85}|bootcamp.Application\\bootcamp.Application.csproj|c:\\gitrepo\\bootcamp\\bootcamp.application\\services\\applicantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74A8686-A552-4579-B1C7-7A5BE9C15E85}|bootcamp.Application\\bootcamp.Application.csproj|solutionrelative:bootcamp.application\\services\\applicantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|c:\\gitrepo\\bootcamp\\bootcamp.infrastructure\\serviceimplementation\\applicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|solutionrelative:bootcamp.infrastructure\\serviceimplementation\\applicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\controllers\\applicantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|c:\\gitrepo\\bootcamp\\bootcamp.infrastructure\\serviceimplementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|solutionrelative:bootcamp.infrastructure\\serviceimplementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\intefacerepositories\\iapplicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\intefacerepositories\\iapplicantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E74A8686-A552-4579-B1C7-7A5BE9C15E85}|bootcamp.Application\\bootcamp.Application.csproj|c:\\gitrepo\\bootcamp\\bootcamp.application\\interface\\iapplicantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E74A8686-A552-4579-B1C7-7A5BE9C15E85}|bootcamp.Application\\bootcamp.Application.csproj|solutionrelative:bootcamp.application\\interface\\iapplicantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitRepo\\bootcamp\\bootcamp.Api\\Migrations\\20240317195322_added the course type prop to the applicant model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bootcamp.Api\\Migrations\\20240317195322_added the course type prop to the applicant model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\models\\applicants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\models\\applicants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\enums\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\enums\\coursetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\enums\\accountstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\dto\\applicantdto\\applicantlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\dto\\applicantdto\\applicantlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\dto\\applicantdto\\postapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\dto\\applicantdto\\postapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\intefacerepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\intefacerepositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|c:\\gitrepo\\bootcamp\\bootcamp.domain\\intefacerepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7B80129-B717-4B8D-897C-0A20F31827AC}|bootcamp.Domain\\bootcamp.Domain.csproj|solutionrelative:bootcamp.domain\\intefacerepositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|c:\\gitrepo\\bootcamp\\bootcamp.infrastructure\\serviceimplementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|solutionrelative:bootcamp.infrastructure\\serviceimplementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitRepo\\bootcamp\\bootcamp.Api\\Migrations\\20240317172716_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bootcamp.Api\\Migrations\\20240317172716_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\bootcamp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\bootcamp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|c:\\gitrepo\\bootcamp\\bootcamp.infrastructure\\data\\bootcampdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA82F72C-06AD-49AD-8FCB-A83877DF84E6}|bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj|solutionrelative:bootcamp.infrastructure\\data\\bootcampdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|c:\\gitrepo\\bootcamp\\bootcamp.api\\response\\defaultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABC0B342-92C3-4558-A5F1-06BBB4F377B6}|bootcamp.Api\\bootcamp.Api.csproj|solutionrelative:bootcamp.api\\response\\defaultresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IApplicantService.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Application\\Interface\\IApplicantService.cs",
+              "RelativeDocumentMoniker": "bootcamp.Application\\Interface\\IApplicantService.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Application\\Interface\\IApplicantService.cs",
+              "RelativeToolTip": "bootcamp.Application\\Interface\\IApplicantService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicantService.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Application\\Services\\ApplicantService.cs",
+              "RelativeDocumentMoniker": "bootcamp.Application\\Services\\ApplicantService.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Application\\Services\\ApplicantService.cs",
+              "RelativeToolTip": "bootcamp.Application\\Services\\ApplicantService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\ServiceImplementation\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "bootcamp.Infrastructure\\ServiceImplementation\\GenericRepository.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\ServiceImplementation\\GenericRepository.cs",
+              "RelativeToolTip": "bootcamp.Infrastructure\\ServiceImplementation\\GenericRepository.cs",
+              "ViewState": "AQIAAAUAAAAgMzMzMzMwwAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicantRepository.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\ServiceImplementation\\ApplicantRepository.cs",
+              "RelativeDocumentMoniker": "bootcamp.Infrastructure\\ServiceImplementation\\ApplicantRepository.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\ServiceImplementation\\ApplicantRepository.cs",
+              "RelativeToolTip": "bootcamp.Infrastructure\\ServiceImplementation\\ApplicantRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAnwB4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicantController.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Controllers\\ApplicantController.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\Controllers\\ApplicantController.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Controllers\\ApplicantController.cs",
+              "RelativeToolTip": "bootcamp.Api\\Controllers\\ApplicantController.cs",
+              "ViewState": "AQIAAMEAAAAA/v////8PwMwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IApplicantRepository.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\IntefaceRepositories\\IApplicantRepository.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\IntefaceRepositories\\IApplicantRepository.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\IntefaceRepositories\\IApplicantRepository.cs",
+              "RelativeToolTip": "bootcamp.Domain\\IntefaceRepositories\\IApplicantRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240317195322_added the course type prop to the applicant model.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Migrations\\20240317195322_added the course type prop to the applicant model.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\Migrations\\20240317195322_added the course type prop to the applicant model.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Migrations\\20240317195322_added the course type prop to the applicant model.cs",
+              "RelativeToolTip": "bootcamp.Api\\Migrations\\20240317195322_added the course type prop to the applicant model.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:53:23.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Applicants.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Models\\Applicants.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\Models\\Applicants.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Models\\Applicants.cs",
+              "RelativeToolTip": "bootcamp.Domain\\Models\\Applicants.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountStatus.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Enums\\AccountStatus.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\Enums\\AccountStatus.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Enums\\AccountStatus.cs",
+              "RelativeToolTip": "bootcamp.Domain\\Enums\\AccountStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\Models\\Student.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Models\\Student.cs",
+              "RelativeToolTip": "bootcamp.Domain\\Models\\Student.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wCIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseType.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Enums\\CourseType.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\Enums\\CourseType.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\Enums\\CourseType.cs",
+              "RelativeToolTip": "bootcamp.Domain\\Enums\\CourseType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T19:25:40.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicantLoginDto.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\DTO\\ApplicantDTO\\ApplicantLoginDto.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\DTO\\ApplicantDTO\\ApplicantLoginDto.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\DTO\\ApplicantDTO\\ApplicantLoginDto.cs",
+              "RelativeToolTip": "bootcamp.Api\\DTO\\ApplicantDTO\\ApplicantLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T18:48:50.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostApplication.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\DTO\\ApplicantDTO\\PostApplication.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\DTO\\ApplicantDTO\\PostApplication.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\DTO\\ApplicantDTO\\PostApplication.cs",
+              "RelativeToolTip": "bootcamp.Api\\DTO\\ApplicantDTO\\PostApplication.cs",
+              "ViewState": "AQIAAAUAAACAZmZmZmYswBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:02:59.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\IntefaceRepositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\IntefaceRepositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\IntefaceRepositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "bootcamp.Domain\\IntefaceRepositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\IntefaceRepositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "bootcamp.Domain\\IntefaceRepositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\IntefaceRepositories\\IGenericRepository.cs",
+              "RelativeToolTip": "bootcamp.Domain\\IntefaceRepositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\ServiceImplementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "bootcamp.Infrastructure\\ServiceImplementation\\UnitOfWork.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\ServiceImplementation\\UnitOfWork.cs",
+              "RelativeToolTip": "bootcamp.Infrastructure\\ServiceImplementation\\UnitOfWork.cs",
+              "ViewState": "AQIAAAsAAABAAAAAAAAxwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240317172716_Initial.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Migrations\\20240317172716_Initial.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\Migrations\\20240317172716_Initial.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Migrations\\20240317172716_Initial.cs",
+              "RelativeToolTip": "bootcamp.Api\\Migrations\\20240317172716_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T17:27:17.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "bootcamp.Api\\appsettings.json",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\appsettings.json",
+              "RelativeToolTip": "bootcamp.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-14T15:03:00.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\Program.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Program.cs",
+              "RelativeToolTip": "bootcamp.Api\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DefaultResponse.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Response\\DefaultResponse.cs",
+              "RelativeDocumentMoniker": "bootcamp.Api\\Response\\DefaultResponse.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\Response\\DefaultResponse.cs",
+              "RelativeToolTip": "bootcamp.Api\\Response\\DefaultResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bootcamp.Api.csproj",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\bootcamp.Api.csproj",
+              "RelativeDocumentMoniker": "bootcamp.Api\\bootcamp.Api.csproj",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Api\\bootcamp.Api.csproj",
+              "RelativeToolTip": "bootcamp.Api\\bootcamp.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-14T15:22:34.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AQIAAOIAAAAAAAAAAABQPZUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-14T16:12:38.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BootcampDbContext.cs",
+              "DocumentMoniker": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\Data\\BootcampDbContext.cs",
+              "RelativeDocumentMoniker": "bootcamp.Infrastructure\\Data\\BootcampDbContext.cs",
+              "ToolTip": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\Data\\BootcampDbContext.cs",
+              "RelativeToolTip": "bootcamp.Infrastructure\\Data\\BootcampDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T15:03:00.579Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+[
+  {
+    "ContainingType": "bootcamp.Api.Controllers.ApplicantController",
+    "Method": "ApplicantCourseType",
+    "RelativePath": "api/Applicant/ApplicantCourseType/{UserId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "course",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bootcamp.Api.Response.DefaultResponse\u00601[[bootcamp.Domain.Models.Applicants, bootcamp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bootcamp.Api.Controllers.ApplicantController",
+    "Method": "ApplicantLogin",
+    "RelativePath": "api/Applicant/ApplicantLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "bootcamp.Api.DTO.ApplicantDTO.ApplicantLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bootcamp.Api.Response.DefaultResponse\u00601[[bootcamp.Domain.Models.Applicants, bootcamp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bootcamp.Api.Controllers.ApplicantController",
+    "Method": "GetAllApplicant",
+    "RelativePath": "api/Applicant/GetAllApplicant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "bootcamp.Api.Response.DefaultResponse\u00601[[System.Collections.Generic.List\u00601[[bootcamp.Domain.Models.Applicants, bootcamp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bootcamp.Api.Controllers.ApplicantController",
+    "Method": "GetApplicantById",
+    "RelativePath": "api/Applicant/GetApplicantById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bootcamp.Api.Response.DefaultResponse\u00601[[bootcamp.Domain.Models.Applicants, bootcamp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "bootcamp.Api.Controllers.ApplicantController",
+    "Method": "UserApplication",
+    "RelativePath": "api/Applicant/UserApplication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "application",
+        "Type": "bootcamp.Api.DTO.ApplicantDTO.PostApplication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "bootcamp.Api.Response.DefaultResponse\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

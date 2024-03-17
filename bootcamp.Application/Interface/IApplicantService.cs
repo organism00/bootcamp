@@ -1,4 +1,5 @@
-﻿using bootcamp.Domain.Models;
+﻿using bootcamp.Domain.Enums;
+using bootcamp.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,7 @@ namespace bootcamp.Application.Interface
         Task<Applicants> GetApplicantById(Guid Id);
         Task UpdateApplicant(Applicants applicants);
         Task DeleteApplicant(Guid Id);
+        Task<Applicants> ApplicantLogin(Applicants applicants);
+        Task<Applicants> ApplicantCourseType(Guid applicantId, CourseType Course);
     }
 }

@@ -17,8 +17,13 @@ builder.Services.AddScoped<IApplicantRepository, ApplicantRepository>();
 builder.Services.AddScoped<IApplicantService, ApplicantService>();
 
 
+//builder.Services.AddDbContext<BootcampDbContext>(options =>
+//options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+//b => b.MigrationsAssembly("bootcamp.Api")
+//));
+
 builder.Services.AddDbContext<BootcampDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+options.UseSqlite(builder.Configuration.GetConnectionString("SqlCon"),
 b => b.MigrationsAssembly("bootcamp.Api")
 ));
 builder.Services.AddControllers();

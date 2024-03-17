@@ -1,4 +1,5 @@
 ﻿using bootcamp.Application.Interface;
+using bootcamp.Domain.Enums;
 using bootcamp.Domain.Models;
 using bootcamp.Domain.Repositories;
 using System;
@@ -16,6 +17,20 @@ namespace bootcamp.Application.Services
         {
             _unitOfWork = unitOfWork;
         }
+
+        public async Task<Applicants> ApplicantCourseType(Guid applicantId, CourseType Course)
+        {
+            var res= await _unitOfWork.Applicants.ApplicantCourseType(applicantId, Course);
+            _unitOfWork.Save();
+            return res;
+        }
+
+        public async Task<Applicants> ApplicantLogin(Applicants applicants)
+        {
+            var applicant  = await _unitOfWork.Applicants.ApplicantLogin(applicants);
+            return applicant;
+        }
+
         public async Task<Applicants> CreateUser(Applicants applicants)
         {
             var addUser = await _unitOfWork.Applicants.Add(applicants);

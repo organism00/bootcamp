@@ -1,7 +1,9 @@
-﻿using bootcamp.Api.DTO.ApplicantDTO;
+﻿using Azure;
+using bootcamp.Api.DTO.ApplicantDTO;
 using bootcamp.Api.Response;
 using bootcamp.Application.Interface;
 using bootcamp.Application.Services;
+using bootcamp.Domain.Enums;
 using bootcamp.Domain.Models;
 using bootcamp.Infrastructure.Data;
 using Microsoft.AspNetCore.Authorization;
@@ -139,5 +141,86 @@ namespace bootcamp.Api.Controllers
         }
 
 
+        [HttpPost]
+        [Route("ApplicantLogin")]
+        public async Task<ActionResult<DefaultResponse<Applicants>>> ApplicantLogin(ApplicantLoginDto dto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var response = new DefaultResponse<Applicants>();
+            try
+            {
+
+                var applicant = new Applicants();
+                applicant.Email = dto.Email;
+                applicant.PasswordHash = dto.Password;
+                var res = await _service.ApplicantLogin(applicant);
+                if (res == null)
+                {
+                    return NotFound();
+                }
+                response.Status = true;
+                response.ResponseCode = "00";
+                response.ResponseMessage = "Applicant Logged in Successfully";
+                response.Data = res;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+
+                response.Status = false;
+                response.ResponseCode = "99";
+                response.ResponseMessage = ex.Message;
+                _logger.LogError("Unable to log user in", ex);
+                return StatusCode(500, response);
+
+            }
+
+
+
+        }
+
+
+        [HttpPut]
+        [Route("ApplicantCourseType/{UserId}")]
+        public async Task<ActionResult<DefaultResponse<Applicants>>> ApplicantCourseType([FromRoute] Guid UserId, CourseType course)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var response = new DefaultResponse<Applicants>();
+            try
+            {
+
+                var aplicant = await _service.GetApplicantById(UserId);
+                if(aplicant == null)
+                {
+                    return StatusCode(404, "No user found");
+                }
+                var res = await _service.ApplicantCourseType(UserId, course);
+                aplicant.CourseType=course;
+                
+                response.ResponseCode = "00";
+                response.ResponseMessage = "Course choosed Successfully";
+                response.Data = res;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+
+                response.Status = false;
+                response.ResponseCode = "99";
+                response.ResponseMessage = ex.Message;
+                _logger.LogError("Unable to Chose course", ex);
+                return StatusCode(500, response);
+
+            }
+
+
+
+        }
     }
 }
