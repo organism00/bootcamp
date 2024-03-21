@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace bootcamp.Infrastructure.ServiceImplementation
 {
-    public class ApplicantRepository: GenericRepository<Applicants>, IApplicantRepository
+    public class ApplicantRepository : GenericRepository<Applicants>, IApplicantRepository
     {
         private readonly BootcampDbContext _context;
-        public ApplicantRepository(BootcampDbContext context): base(context)
+        public ApplicantRepository(BootcampDbContext context) : base(context)
         {
             _context = context;
         }
@@ -34,13 +34,13 @@ namespace bootcamp.Infrastructure.ServiceImplementation
 
         public async Task<Applicants> ApplicantLogin(Applicants applicants)
         {
-            var user  = await _context.Applicants.FirstOrDefaultAsync(x => x.Email == applicants.Email);
+            var user = await _context.Applicants.FirstOrDefaultAsync(x => x.Email == applicants.Email);
             if (user == null)
             {
                 throw new Exception("Not a user");
             }
             var UserPassword = BCrypt.Net.BCrypt.Verify(applicants.PasswordHash, user.PasswordHash);
-               if ( !UserPassword)
+            if (!UserPassword)
             {
                 throw new Exception("Incorrect password");
             }

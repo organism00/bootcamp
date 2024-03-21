@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj": {}
+    "C:\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj": {
+    "C:\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj",
+        "projectUniqueName": "C:\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj",
         "projectName": "bootcamp.Domain",
-        "projectPath": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj",
-        "packagesPath": "C:\\Users\\EFEZEINO\\.nuget\\packages\\",
-        "outputPath": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\obj\\",
+        "projectPath": "C:\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\bootcamp\\bootcamp.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\EFEZEINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,17 +39,16 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -61,40 +65,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj": {
+    "C:\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj",
         "projectName": "bootcamp.Infrastructure",
-        "projectPath": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\EFEZEINO\\.nuget\\packages\\",
-        "outputPath": "C:\\GitRepo\\bootcamp\\bootcamp.Infrastructure\\obj\\",
+        "projectPath": "C:\\bootcamp\\bootcamp.Infrastructure\\bootcamp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\bootcamp\\bootcamp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\EFEZEINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,14 +96,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj": {
-                "projectPath": "C:\\GitRepo\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj"
+              "C:\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj": {
+                "projectPath": "C:\\bootcamp\\bootcamp.Domain\\bootcamp.Domain.csproj"
               }
             }
           }
@@ -118,11 +113,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -157,26 +147,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.16, 7.0.16]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
